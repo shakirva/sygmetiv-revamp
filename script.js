@@ -163,12 +163,13 @@ boxElements.forEach((box) => {
 
 handberger.addEventListener(
   "click",
-  () => (
+  () => {
     isHandbergerOpen
       ? menu.classList.add("display")
       : menu.classList.remove("display"),
     (isHandbergerOpen = !isHandbergerOpen)
-  )
+    
+  }
 );
 
 const setMaxWidth = () => {
