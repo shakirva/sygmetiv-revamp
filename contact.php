@@ -73,7 +73,7 @@ form button:hover {
     <div class="container">
         
         <?php include('fragments/header.php'); ?>
-        
+
         <div class="wrapper">
             <div class="left">
                 <div class="title-wrapper">
@@ -91,7 +91,7 @@ form button:hover {
                         <input type="number" name="" id="" placeholder="number">
                         <input type="email" name="" id="" placeholder="Email address">
                         <input type="text" name="" id="" placeholder="Talk us all about it">
-                        <button type="submit">Sent</button>
+                        <button type="submit">Send</button>
                     </form>
 
                 </div>
